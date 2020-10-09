@@ -1,6 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <router-view/>
+  <button @click='test'>test</button>
 </template>
 
 <script>
@@ -12,10 +13,11 @@ export default {
   },
   methods:{
     test(){
-     store.commit('increment') //執行 store中的 increment
-      alert('count:' + store.state.count)
-
-    }
+    //  store.commit('increment') //執行 store中的 increment
+    var test = store.state.cardInfo
+    console.log(test)
+    },
+  
   }
 }
 </script>
