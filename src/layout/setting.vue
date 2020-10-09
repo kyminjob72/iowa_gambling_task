@@ -70,6 +70,12 @@
       </tbody>
     </table>
   </div>
+  <div>
+    <router-link to='/test'>確定</router-link>
+  </div>
+  <div>
+    <router-link to='/'>回首頁</router-link>
+  </div>
 </template>
 
 <script>

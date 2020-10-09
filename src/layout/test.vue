@@ -44,6 +44,13 @@
     </tbody>
 </table>
 </div>
+<div>
+    <router-link to='/'>回首頁</router-link>
+</div>
+<!-- 先不設計結算畫面 -->
+<div>
+    <router-link to='/settlement' >結算</router-link>
+</div>
 </template>
 
 <script>
