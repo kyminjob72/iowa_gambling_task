@@ -3,6 +3,12 @@ import { createStore } from 'vuex'
  const store = createStore({
     state () {
         return {
+          point:2000,
+          userInfo:{
+            name:"default",
+            age : 0,
+            sex : "女",
+          },
           gameTimes:100,
           cardInfo:{
             first:{

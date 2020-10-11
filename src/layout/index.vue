@@ -1,4 +1,5 @@
 <template>
+
   <table>
     <thead>
       <tr>
@@ -21,7 +22,8 @@
 <script>
 export default {
   name: "index",
-  components: {},
+  components: {
+  },
 };
 </script>
 

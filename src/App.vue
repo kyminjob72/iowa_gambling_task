@@ -1,7 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <router-view/>
-  <button @click='test'>test</button>
+  <!-- <button @click='test'>test</button> -->
 </template>
 
 <script>
