@@ -34,8 +34,13 @@ export default {
       clickEvent() {
         //取得牌組
       var cards = this.getCards;
+      var card ={
+        id:0,
+        dividend:0
+      }
       //亂數取得一張牌
-      var card = cards[this.getRandomInt(cards.length)]
+      card.dividend = cards[this.getRandomInt(cards.length)]
+      card.id = this.id
       console.log(`card: ${card}`);
       //傳到test.vue中觸發
       this.$emit('getcard',card)

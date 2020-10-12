@@ -3,6 +3,7 @@ import { createStore } from 'vuex'
  const store = createStore({
     state () {
         return {
+          history:[],
           point:2000,
           userInfo:{
             name:"default",

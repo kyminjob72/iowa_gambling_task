@@ -1,7 +1,7 @@
 <template>
   <div id="infomation">
-    <div>姓名:<input type="text" @click="setName" /></div>
-    <div>年紀:<input type="text" @click="setAge" /></div>
+    <div>姓名:<input type="text" @change="setName" /></div>
+    <div>年紀:<input type="text" @change="setAge" /></div>
     <div>
       性別:
       <select v-model="selected" @change="setSex">
